@@ -11,7 +11,7 @@ public class SpringBootAssignmentApplication {
 	public static final Logger logger = LoggerFactory.getLogger(SpringBootAssignmentApplication.class);
 
 	public static void main(String[] args) {
-		logger.info("It is a Continuous Integration Job!!")
+		logger.info("It is a Continuous Integration Job!!");
 		SpringApplication.run(SpringBootAssignmentApplication.class, args);
 	}
 
